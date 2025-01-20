@@ -695,6 +695,8 @@ class HomePage extends StatelessWidget {
                       ),
                     ],
                   ),
+                  
+                  BottomNavigationBar(items: ElevatedButton(onPressed: (){}, child: Text("data")))
                 ],
               ),
           
