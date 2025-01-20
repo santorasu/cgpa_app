@@ -527,6 +527,174 @@ class HomePage extends StatelessWidget {
                       ),
                     ],
                   ),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly, // Align content to the start
+                    crossAxisAlignment: CrossAxisAlignment.center, // Vertically center the content
+                    children: [
+                      Container(
+                        height: 150,
+                        width: 150,
+                        margin: EdgeInsets.all(10), // Add spacing around the container
+                        padding: EdgeInsets.all(10), // Add padding inside the container
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.only(topLeft: Radius.circular(35),bottomRight: Radius.circular(35) ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black26,
+                              blurRadius: 5,
+                              offset: Offset(2, 2),
+                            ),
+                          ],
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "3.51",
+                              style: TextStyle(
+                                color: Colors.green,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text(
+                              "Fall 2024",
+                              style: TextStyle(
+                                color: Colors.green,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Container(
+                        height: 150,
+                        width: 150,
+                        margin: EdgeInsets.all(10), // Add spacing around the container
+                        padding: EdgeInsets.all(10), // Add padding inside the container
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.only(topLeft: Radius.circular(35),bottomRight: Radius.circular(35) ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black26,
+                              blurRadius: 5,
+                              offset: Offset(2, 2),
+                            ),
+                          ],
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "3.51",
+                              style: TextStyle(
+                                color: Colors.green,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text(
+                              "Fall 2024",
+                              style: TextStyle(
+                                color: Colors.green,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly, // Align content to the start
+                    crossAxisAlignment: CrossAxisAlignment.center, // Vertically center the content
+                    children: [
+                      Container(
+                        height: 150,
+                        width: 150,
+                        margin: EdgeInsets.all(10), // Add spacing around the container
+                        padding: EdgeInsets.all(10), // Add padding inside the container
+                        decoration: BoxDecoration(
+                          color: Colors.blueAccent,
+                          borderRadius: BorderRadius.only(topLeft: Radius.circular(35),bottomRight: Radius.circular(35) ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black26,
+                              blurRadius: 5,
+                              offset: Offset(2, 2),
+                            ),
+                          ],
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "3.51",
+                              style: TextStyle(
+                                color: Colors.green,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text(
+                              "Fall 2024",
+                              style: TextStyle(
+                                color: Colors.green,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Container(
+                        height: 150,
+                        width: 150,
+                        margin: EdgeInsets.all(10), // Add spacing around the container
+                        padding: EdgeInsets.all(10), // Add padding inside the container
+                        decoration: BoxDecoration(
+                          color: Colors.blueAccent,
+                          borderRadius: BorderRadius.only(topLeft: Radius.circular(35),bottomRight: Radius.circular(35) ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black26,
+                              blurRadius: 5,
+                              offset: Offset(2, 2),
+                            ),
+                          ],
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "3.51",
+                              style: TextStyle(
+                                color: Colors.green,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text(
+                              "Fall 2024",
+                              style: TextStyle(
+                                color: Colors.green,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
           
